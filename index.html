@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイトルタイトル</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header__inner">
+            <p class="header__title">
+                <a href="#
+                ">.Media
+                </a>
+            </p>
+            <button class="hamburger-button" id="js_hamburgerButton">
+                <span class="hamburger-bar"></span><span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </div><!-- header__inner end-->
+        <div class="hamburger-menu">
+            <nav class="hamburger-menu__nav">
+                <ul class="hamburger-menu__list">
+                    <li class="hamburger_menu__item"><a class="hamburger-menu__link" href="#"><span>Link1</span></a>
+                    </li>
+                    <li class="hamburger_menu__item"><a class="hamburger-menu__link" href="#"><span>Link2</span></a>
+                    </li>
+                    <li class="hamburger_menu__item"><a class="hamburger-menu__link" href="#"><span>Link3</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- hamburger-menu end -->
+        <div class="curtain">
+        </div>
+    </header><!-- header end -->
+
+    <main class="main">
+        <!-- fv -->
+        <section class="fv">
+            <div class="swiper">
+                <!-- スライド要素を包む要素 -->
+                <div class="swiper-wrapper">
+                    <!-- 各スライド -->
+                    <figure class="swiper-slide"><img
+                            src="https://images.unsplash.com/photo-1658383659195-0e14a38060f8?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></figure>
+
+                    <figure class="swiper-slide"><img
+                            src="https://images.unsplash.com/photo-1757377125320-cf0d54c0c6e8?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></figure>
+                </div>
+            </div>
+            <p class="fv__text"><span>Lorem ipsum</span><br>is simply dummy text of the printing and<br> typesetting
+                industry.<br> Lorem Ipsum has been the industry's standard<br>dummy text ever since the 1500s</p>
+            <ul class="fv__list">
+                <li class="fv__item">
+                    <a class="fv__link" href="#">link1</a>
+                </li>
+                <li class="fv__item">
+                    <a class="fv__link" href="#">link1</a>
+                </li>
+                <li class="fv__item">
+                    <a class="fv__link" href="#">link1</a>
+                </li>
+            </ul>
+            <h1 class="fv__title">PORTFOLIO</h1>
+        </section>
+        <!-- about 私について -->
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title">Make <span class="bout__title--m">It</span> Right</h2>
+                <p class="about__title--sub">正解を、つくろう ──────</p>
+                <p class="about__text"><span>「選んでいただいたことを<br>クライアント様にとっての正解に。」</span>
+                    “Make it Right”という言葉にはそんな想いを<br>込めています。<br>
+                    どんなに小さな案件でも、面倒な工程でも、選んでくださったことへの感謝と責任を忘れず、最後まで丁寧に向き合います。「この人に頼んでよかった」「正解だった」と思っていただけるように。<br>技術やセンスだけでなく、姿勢でも信頼されるコーダーでありたいと考えています。
+                </p>
+                <a class="about__link" href="#"><span>more about</span></a>
+            </div>
+        </section>
+        <!-- work 制作実績 -->
+        <section class="work">
+            <div class="container">
+                <h2 class="section__title">
+                    <span class="section__title--jp">制作実績</span>
+                    Work
+                </h2>
+                <p class="section__description">これまでの制作実績となります。<br>
+                    当ポートフォリオサイトもデザインから行っておりますので、<br>
+                    制作実績のひとつとしてご覧ください。<br>
+                    また、掲載不可の実績に関しましてもぜひお気軽にお問い合わせください。</p>
+
+                <ul class="work__list">
+                    <li class="work__item">
+                        <figure class="work__image">
+                            <img src="./images/tetote-top-pc.jpg" alt="しょーごログ上級｜採用サイト" loading="lazy" width="1440"
+                                height="1800">
+                        </figure>
+                        <span class="work__heading--sub">case.1</span>
+                        <h3 class="work__heading">採用専用サイト</h3>
+                        <ul class="work__list--s">
+                            <li class="work__item--s">HTML/CSS</li>
+                            <li class="work__item--s">JavaScript</li>
+                            <li class="work__item--s">WordPress</li>
+                        </ul>
+                        <a href="#
+                            " class="work__link">view more
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <figure class="work__image">
+                            <img src="./images/aobotan-top-pc.jpg" alt="しょーごログ上級｜採用サイト" loading="lazy" width="1440"
+                                height="1800">
+                        </figure>
+                        <span class="work__heading--sub">case.1</span>
+                        <h3 class="work__heading">採用専用サイト</h3>
+                        <ul class="work__list--s">
+                            <li class="work__item--s">HTML/CSS</li>
+                            <li class="work__item--s">JavaScript</li>
+                            <li class="work__item--s">WordPress</li>
+                        </ul>
+                        <a href="#
+                            " class="work__link">view more
+                        </a>
+                    </li>
+                    <li class="work__item">
+                        <figure class="work__image">
+                            <img src="./images/tetote-top-pc.jpg" alt="しょーごログ上級｜採用サイト" loading="lazy" width="1440"
+                                height="1800">
+                        </figure>
+                        <span class="work__heading--sub">case.1</span>
+                        <h3 class="work__heading">採用専用サイト</h3>
+                        <ul class="work__list--s">
+                            <li class="work__item--s">HTML/CSS</li>
+                            <li class="work__item--s">JavaScript</li>
+                            <li class="work__item--s">WordPress</li>
+                        </ul>
+                        <a href="#
+                            " class="work__link">view more
+                        </a>
+                    </li>
+                </ul>
+                <a class="about__link" href="#"><span>more about</span></a>
+            </div>
+        </section>
+        <!-- skill できること -->
+        <section class="skill">
+            <div class="container">
+                <h2 class="section__title">
+                    <span class="section__title--jp">できること</span>
+                    Skill
+                </h2>
+                <p class="section__description">LP•Webサイトのコーディング、WordPress構築までを承っております。<br>
+                    ご予算・納品方法・納期等、柔軟に対応いたします。<br>
+                    まずはお気軽にご相談ください。</p>
+                <ul class="skill__list">
+                    <li class="skill__item">
+                        <span class="skill__number">(01)</span>
+                        <h3 class="skill__heading">HTML/CSSコーディング
+                            <span class="skill__heading--en">coding</span>
+                        </h3>
+                        <p class="skill__text">HTML/CSSを用いてコーディングを行います。<br>BEM記法による保守性の高いコード、SEOを意識した構築を行います。</p>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__number">(02)</span>
+                        <h3 class="skill__heading">アニメーション
+                            <span class="skill__heading--en">animation</span>
+                        </h3>
+                        <p class="skill__text">HTML/CSSを用いてコーディングを行います。<br>BEM記法による保守性の高いコード、SEOを意識した構築を行います。</p>
+                    </li>
+                    <li class="skill__item">
+                        <span class="skill__number">(03)</span>
+                        <h3 class="skill__heading">WordPress構築
+                            <span class="skill__heading--en">WordPress</span>
+                        </h3>
+                        <p class="skill__text">HTML/CSSを用いてコーディングを行います。<br>BEM記法による保守性の高いコード、SEOを意識した構築を行います。</p>
+                    </li>
+                    <li class="skill__item skill__item--last">
+                        <span class="skill__number">(04)</span>
+                        <h3 class="skill__heading">その他
+                            <span class="skill__heading--en">other</span>
+                        </h3>
+                        <p class="skill__text">HTML/CSSを用いてコーディングを行います。<br>BEM記法による保守性の高いコード、SEOを意識した構築を行います。</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- contact お問い合わせ -->
+        <section class="contact">
+            <div class="container">
+                <h2 class="section__title">
+                    <span class="section__title--jp">お問い合わせ</span>
+                    contact
+                </h2>
+                <p class="section__description">LP•Webサイトのコーディング、WordPress構築までを承っております。<br>
+                    ご予算・納品方法・納期等、柔軟に対応いたします。<br>
+                    まずはお気軽にご相談ください。</p>
+                <form class="contact__form" action="" method="post">
+                    <div class="contact__inner">
+                        <label for="name" class="form__label">
+                            <span class="input__label">お名前</span>
+                            <input type="text" name="your-name" id="name" placeholder="山田太郎" required>
+                        </label>
+                        <label for="email" class="form__label">
+                            <span class="input__label">メールアドレス</span>
+                            <input type="text" name="your-name" id="email" placeholder="info@example.com" required>
+                        </label>
+                        <label for="detail" class="form__label">
+                            <span class="input__label">お問い合わせ内容</span>
+                            <textarea name="your-name" id="detail" placeholder="お問い合わせ内容をご記入ください。" rows="10" required></textarea>
+                        </label>
+                    </div>
+                    <label for="check" class="form__label form__label--check">
+                        <input type="checkbox" name="check" id="check" value="" required>
+                        <span class="input__label input__label--check">プライバシーポリシーに同意する</span>
+                    </label>
+                    <button type="submit" class="submit">送信する</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__nav-title">content</p>
+            <nav class="fotter__nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">about
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">skill
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">work
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer__nav-title">SNS</p>
+            <nav class="fotter__nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">X
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <small class="footer__small">© 2025 portfolio</small>
+        </div>
+    </footer><!-- footer end -->
+
+    <!-- js -->
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js">
+    </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
